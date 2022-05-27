@@ -1,0 +1,98 @@
+body{
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  font-family: 'Raleway', sans-serif; 
+}
+
+.signup-box{
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.384);
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(54, 55, 56, 0.774);
+}
+
+.login-box{
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.562);
+  box-shadow: 3px 3px 3px rgba(54, 55, 56, 0.774);
+  border-radius: 10px;
+}
+
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4{
+  text-align: center;
+}
+
+form{
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label{
+  display: flex;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  box-shadow: 3px 3px 3px rgba(54, 54, 54, 0.74);
+  border-radius: 10px;
+  outline: none;
+  background: transparent;
+  font-weight: bold;
+}
+
+input[type="button"]{
+  width: 100px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(233, 127, 167);
+  box-shadow: 3px 3px 3px rgba(55, 56, 56, 0.685);
+  border-radius: 100px;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.par-2 a{
+  color: brown;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.para-2{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.para-2 a{
+  color: brown;
+  text-decoration: none;
+  font-weight: bolder;
+}
